@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">AMS-Project</string>
         <string-array name="officer_types_array">
-            <item>All</item>
             <item>Deployment</item>
             <item>Military</item>
             <item>Defense</item>
