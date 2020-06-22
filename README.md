@@ -9,7 +9,7 @@ https://github.com/Nessumsar/AMS-Comparator/tree/In-progress
 
 
 # Future changes
-Project requirement to use API - will
+Project requirement to use API - will be removed.
 Dummy assign center
 Finish comparison DB
 
