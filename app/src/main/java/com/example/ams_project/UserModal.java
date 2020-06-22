@@ -3,50 +3,38 @@ package com.example.ams_project;
 public class UserModal {
 
     private int id;
-    private String name;
-    private String email;
-    private Object picture;
+    private String email, firstName, lastName, profilePicture;
 
-
-    public UserModal(int id, String name, String email, Object picture) {
+    public UserModal(int id, String email, String firstName, String lastName, String profilePicture) {
         this.id = id;
-        this.name = name;
         this.email = email;
-        this.picture = picture;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.profilePicture = profilePicture;
     }
-
-    public UserModal() {}
-
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public Object getPicture() {
-        return picture;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setPicture(Object picture) {
-        this.picture = picture;
+    public String getProfilePicture() {
+        return profilePicture;
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName;
     }
 }
