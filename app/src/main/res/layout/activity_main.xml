@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/main_assign_btn"
+        android:id="@+id/main_api_btn"
         android:layout_width="200dp"
         android:layout_height="75dp"
         android:backgroundTint="#C3C3C3"
@@ -29,6 +29,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_assign_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/main_api_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
