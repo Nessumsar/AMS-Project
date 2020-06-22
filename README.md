@@ -2,8 +2,10 @@
 
 School project in android development.
 
-# Finished release: https://github.com/Nessumsar/AMS-Comparator/tree/master
-# Work in progress: https://github.com/Nessumsar/AMS-Comparator/tree/In-progress
+# Finished release
+https://github.com/Nessumsar/AMS-Comparator/tree/master
+# Work in progress
+https://github.com/Nessumsar/AMS-Comparator/tree/In-progress
 
 
 # Future changes
@@ -13,7 +15,7 @@ Finish comparison DB
 
 
 
-# Changelog:
+# Changelog
 
 
 
